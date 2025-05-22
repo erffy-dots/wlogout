@@ -1,6 +1,7 @@
-## Erffy Dots - Wlogout
-- My wlogout configuration files
+## Erffy Dots - [Wlogout](https://github.com/ArtsyMacaw/wlogout)
+My wlogout config
 
-### Installation Guide
-- Coming soon
-
+### Installation
+```sh
+bash -c "bash <(curl -sL https://raw.githubusercontent.com/erffy-dots/wlogout/main/install.sh)"
+```
