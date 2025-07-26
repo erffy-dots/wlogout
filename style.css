@@ -1,6 +1,7 @@
 * {
 	background-image: none;
-	box-shadow: none;
+	font-size: 20px;
+	font-family: 'Fira Mono';
 }
 
 window {
@@ -9,7 +10,7 @@ window {
 
 button {
 	border-radius: 0;
-	border-color: #89b4fa;
+	border-color: #89dceb;
 	text-decoration-color: #cdd6f4;
 	color: #cdd6f4;
 	background-color: #181825;
@@ -21,31 +22,30 @@ button {
 }
 
 button:focus, button:active, button:hover {
-	/* 20% Overlay 2, 80% mantle */
 	background-color: rgb(48, 50, 66);
 	outline-style: none;
 }
 
 #lock {
-  background-image: url('/usr/share/wlogout/icons/lock.png');
+	background-image: url('icons/lock.svg');
 }
 
 #logout {
-  background-image: url('/usr/share/wlogout/icons/logout.png');
+	background-image: url('icons/logout.svg');
 }
 
 #suspend {
-  background-image: url('/usr/share/wlogout/icons/suspend.png');
+	background-image: url('icons/suspend.svg');
 }
 
 #hibernate {
-  background-image: url('/usr/share/wlogout/icons/hibernate.png');
+	background-image: url('icons/hibernate.svg');
 }
 
 #shutdown {
-  background-image: url('/usr/share/wlogout/icons/shutdown.png');
+	background-image: url('icons/shutdown.svg');
 }
 
 #reboot {
-  background-image: url('/usr/share/wlogout/icons/reboot.png');
+	background-image: url('icons/reboot.svg');
 }
